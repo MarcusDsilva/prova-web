@@ -27,8 +27,8 @@ include_once 'includes/header.php';
 
 			<div class="input-field col s12">
 			<i class="material-icons prefix">face</i>
-				<input type="text" name="idade" id="idade">
-				<label for="idade">Idade</label>
+				<input type="text" name="dataani" id="dataani">
+				<label for="dataani">Data do aniversario</label>	
 			</div>
 
 

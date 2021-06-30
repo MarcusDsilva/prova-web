@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Tempo de geração: 28-Jun-2021 às 00:17
+-- Tempo de geração: 30-Jun-2021 às 20:15
 -- Versão do servidor: 5.7.31
 -- versão do PHP: 7.3.21
 
@@ -33,18 +33,18 @@ CREATE TABLE IF NOT EXISTS `tbclientes` (
   `nome` varchar(50) NOT NULL,
   `sobrenome` varchar(80) NOT NULL,
   `email` varchar(200) NOT NULL,
-  `idade` int(11) NOT NULL,
+  `dataani` date NOT NULL,
   `fone` int(25) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 --
 -- Extraindo dados da tabela `tbclientes`
 --
 
-INSERT INTO `tbclientes` (`id`, `nome`, `sobrenome`, `email`, `idade`, `fone`) VALUES
-(1, 'rafa', 'gomes', 'rafa123@gmail.com', 25, 82550557),
-(7, 'Marcus ', 'silva', 'monkydnatsu1@gmail.com', 114, 82550554);
+INSERT INTO `tbclientes` (`id`, `nome`, `sobrenome`, `email`, `dataani`, `fone`) VALUES
+(1, 'joão', 'marques', 'marques123@gmail.com', '1000-01-01', 981837061),
+(2, 'Marcus ', 'silva', 'marcusgomis@gmail.com', '2003-02-03', 8254789);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

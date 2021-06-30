@@ -15,7 +15,7 @@ include_once 'includes/message.php';
 					<th>Nome:</th>
 					<th>Sobrenome:</th>
 					<th>Email:</th>
-					<th>Idade:</th>	
+					<th>Data do aniversario:</th>	
 					<th>Telefone:</th>
 				</tr>
 			</thead>
@@ -33,7 +33,7 @@ include_once 'includes/message.php';
 					<td><?php echo $dados['nome']; ?></td>
 					<td><?php echo $dados['sobrenome']; ?></td>
 					<td><?php echo $dados['email']; ?></td>
-					<td><?php echo $dados['idade']; ?></td>
+					<td><?php echo $dados['dataani']; ?></td>
 					<td><?php echo $dados['fone']; ?></td>
 					<td><a href="editar.php?id=<?php echo $dados['id']; ?>" class="btn-floating orange"><i class="material-icons">edit</i></a></td>
 

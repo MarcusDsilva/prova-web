@@ -36,8 +36,8 @@ endif;
 			</div>
 
 			<div class="input-field col s12">
-				<input type="text" value="<?php echo $dados['idade'];?>" name="idade" id="idade">
-				<label for="idade">Idade</label>
+				<input type="text" value="<?php echo $dados['dataani'];?>" name="dataani" id="dataani">
+				<label for="dataani">Data do aniversario</label>
 			</div>
             
 
